@@ -7,5 +7,6 @@ myButton.addEventListener('click', changeColor);
 function changeColor() {
     let randomIndex = Math.floor(Math.random() * colors.length);
     console.log(randomIndex);
-    image.src = "images/"
+    myBox.style.backgroundColor = colors[randomIndex];
 }
+
